@@ -1,0 +1,225 @@
+ .biggestcontainer{
+    background-image: url(../images/background.jpg); 
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.bookshelf .bookshe{
+    background-image: url(../images/bookshe.webp); 
+    background-size: cover;  
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    width:48vw;
+    height:60vh;
+}
+.bookshelf .bookshe::before {
+    width:48vw;
+    height:60vh;
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5); 
+  
+}
+
+.main{
+   padding: 30px;
+} 
+.main-h1 h1{
+    color: #ffc400cb;
+    margin-bottom: 50px;
+    font-size: 2.8vw;
+    width: 58%;
+    border-bottom: 2px dashed #ffffff7a; ;
+}
+
+.adobe-img img{
+    border-radius: 50px;
+}
+.adobe-img{
+    margin-bottom: 30px;
+  
+}
+.adobe-content h6{
+    border-left: 10px solid #D4AF37;
+    padding: 10px 20px;
+    font-size: x-large;
+    margin-bottom: 50px;
+}
+.b-collection .b-head h1{
+    color: #D4AF37;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+.b-collection .A1 h1{
+    color: #F5F5F5;
+    border-left: 3px solid #D4AF37;
+    padding: 30px 20px;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.b-collection .A1 p{
+    font-size: 20px;
+
+    margin-bottom: 50px;
+}
+
+.b-collection .A1 h2{
+    font-size: 33px;
+    margin-left: 30px;
+    margin-bottom: 90px;
+    color: #C0C0C0;
+}
+.parent{
+    display: flex;
+    gap: 50px;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.b-collection .A1 .text p{
+    color: #A9A9A9;
+    font-size: 30px;
+    font-style: italic;
+    padding-bottom: 55px;
+    border-bottom: 1px solid rgb(185, 184, 184);
+}
+.b-collection .A1 .text h5{
+    font-size: 25px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(175, 175, 175);
+    color: #C0C0C0;
+}
+
+   .card-flip {
+    width:  400px;
+    height: 580px;
+    perspective: 1000px;
+    margin-bottom: 40px;
+}
+
+.card-flip-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.card-flip:hover .card-flip-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden; 
+}
+
+.card-front img {
+    width: 100%; 
+    height: 580px;
+    object-fit: cover; 
+    justify-content: center;
+    align-items: center;
+   margin-bottom: 40px;
+}
+
+.card-back {
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.cardback11{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cardback11 h5{
+    font-size: 25px;
+    padding-bottom: 10px;
+    height: 40px;
+    width: 100%;
+}
+.cardback11 p{
+    font-size: x-large;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+.card-back button{
+     width: 40%;
+     padding: 14px 20px 14px 20px;
+     font-weight: bold;
+}
+.card-back button:hover{
+    color: white;
+}
+.card-back .cardback11{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/backflipcart.avif);
+    align-items: center;
+    justify-content: center;
+}
+.card-front{
+    height: 600px;
+} 
+.bookh2 h2{ 
+    margin-left: 15px;
+    width: 98%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 39px 0px;
+    background-color: #99999934;
+    font-size: 40px;
+    margin-bottom: 40px ;
+    margin-top: 40px;
+}
+@media screen and (max-width: 950px) {
+    .card-flip {
+        width: 70%;
+        height: 580px;
+        perspective: 1000px;
+        
+    }
+    .text{
+        width: 76vw;
+    }
+    
+.parent {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+}
+}
+@media screen and (max-width: 1120px) {
+    .card-flip {
+        width: 65%;
+        /* height: 580px; */
+        /* perspective: 1000px; */
+        
+    }
+}

@@ -1,0 +1,274 @@
+body { font-family: Arial, sans-serif; }
+.hero-section { background: linear-gradient(to right, #aa9e34, #f5e27e);
+ padding: 80px 0; text-align: center; }
+.description-section, .faq-section { padding: 60px 0; }
+.stats-section { background: #f8f9fa; padding: 40px 0; text-align: center; }
+.footer { background: black; color: white; padding: 40px 0; text-align: center; }
+body {
+font-family: Arial, sans-serif;
+}
+
+.yoga-section {
+padding: 50px ;
+ background-color: #ffffff;
+
+}
+
+@media (min-width: 1200px) {
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+ max-width: 1319px;
+ }
+ }
+.yoga-images {
+text-align: center;
+margin-bottom: 20px;
+width: 1256px;
+}
+
+.yoga-images img:hover{
+ transform: scale(1.05);
+ box-shadow: 0 0 20px rgba(246, 250, 28, 0.671);
+}
+.description {
+font-size: 1rem;
+color: #555;
+text-align: justify;
+}
+
+.learning-outcomes {
+margin-top: 20px;
+}
+
+.learning-outcomes h4 {
+font-size: 1.3rem;
+font-weight: bold;
+}
+
+.learning-outcomes ul {
+padding-left: 20px;
+}
+
+.learning-outcomes li {
+font-size: 1rem;
+margin-bottom: 5px;
+}
+
+.instructor-card {
+background: white;
+padding: 15px;
+border-radius: 10px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+text-align: center;
+max-width: 266px;
+margin: auto;
+}
+
+.instructor-card img {
+width: 70px;
+height: 70px;
+border-radius: 50%;
+margin-bottom: 10px;
+}
+
+.instructor-name {
+font-size: 1.2rem;
+font-weight: bold;
+}
+
+.instructor-role {
+font-size: 1rem;
+color: #777;
+}
+
+.btn-discover {
+background-color: #aa9e34;
+color: white;
+padding: 10px 20px;
+font-size: 1rem;
+text-decoration: none;
+border-radius: 5px;
+display: inline-block;
+margin-top: 20px;
+}
+
+.btn-discover:hover {
+background-color: #cabc3d;
+}
+
+.yoga-banner {
+background: url('https://via.placeholder.com/1200x400') center/cover no-repeat;
+padding: 100px 0;
+text-align: center;
+color: white;
+}
+
+.yoga-banner h2 {
+font-size: 2rem;
+font-weight: bold;
+}
+.yoga-images img {
+width: 100%;
+height: 250px;
+margin: 5px;
+border-radius: 10px;
+}
+.description1{
+margin-bottom: 10px;
+} 
+#experience #bold {
+font-weight: 600;
+}
+#experience{
+margin-bottom: 10px;
+}
+#level #bold {
+font-weight: 600;
+}
+#level{
+margin-bottom: 10px;
+}
+.stars i {
+font-size: 15px;
+color: #FFD700; 
+}
+.stars h6 {
+font-weight: 600;
+
+}
+.stars {
+margin-bottom: 10px;
+}
+.description-section{
+background-image: url(../images/yogabanner.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+/* .holographic-container {
+display: flex;
+width: 1577px;
+
+} */
+
+.holographic-card {
+margin: 0px;
+padding: 0px;
+width: 100%;
+height: 100%;
+/* background: #111; */
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+overflow: hidden;
+border-radius: 15px;
+transition: all 0.5s ease;
+}
+
+.holographic-card::before {
+content: '';
+position: absolute;
+top: -50%;
+left: -50%;
+width: 200%;
+height: 200%;
+background: linear-gradient(
+0deg, 
+transparent, 
+transparent 30%, 
+rgba(206, 193, 17, 0.3)
+);
+transform: rotate(-45deg);
+transition: all 0.5s ease;
+opacity: 0;
+}
+.holographic-card:hover::before {
+opacity: 1;
+transform: rotate(-45deg) translateY(100%);
+}
+
+ .accordion-button {
+     font-weight: bold;
+     color: #3a2b57; /* Dark purple text */
+ }
+ .accordion-button:not(.collapsed) {
+     background-color: #f8f9fa; /* Light background when open */
+     color: #3a2b57;
+ }
+ .accordion-item {
+     border: none;
+     border-bottom: 1px solid #ddd; /* Light border */
+ }
+ .holographic-container {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 100%;
+ }
+ .instructor-card:hover{
+    transform: translateY(5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transform:scale(1.05);
+ }
+ .faq-section {
+    display: flex;
+    max-width: 1352px;
+    margin: 0;
+    padding: 40px 20px;
+    justify-content: space-between;
+    flex-direction: column;
+ 
+}
+.coursesh2 h2{ 
+    margin-left: 15px;
+    width: 98%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 39px 0px;
+    background-color: #99999934;
+    font-size: 40px;
+    margin-bottom: 40px ;
+}
+.row {
+     /* width: 1550px; */
+    }
+.biggerfaq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1679px;
+    width: 98vw;
+}
+.faq-section{
+    width: 1679px;
+}
+@media screen and (max-width: 800px) {
+    .holographic-container {
+        flex-direction: column;
+        display: flex;
+ 
+    }
+    .holographic-container .yoga-images {
+        flex-direction: column;
+       
+    }
+    .holographic-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #yogi{
+        /* width: 60vw;
+        align-items: center;
+        display: flex;
+        flex-direction: column; */
+    }
+    #yogi{
+        width: 100%;
+        height: 842px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+ 
+}

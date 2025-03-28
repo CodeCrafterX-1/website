@@ -1,0 +1,357 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+  
+}
+
+/* @media screen and (max-width: 2000px) {
+  .carousel-item img {
+ 
+    height: 800px;
+    object-fit: cover; 
+    z-index: -1;
+  }
+    #carouselExampleDark{
+      width:100% ;
+      height: 800px;
+    }
+    .carousel-item{
+      height: 800px;
+    }
+   .carousel-inner{
+    height: 800px;
+   }
+}
+@media screen and (max-width: 2560px) {
+  .carousel-item img {
+    
+    height: 1000px;
+    object-fit: cover; 
+    z-index: -1;
+  }
+    #carouselExampleDark{
+      width:100% ;
+      height: 1000px;
+    }
+    .carousel-item{
+      height: 1000px;
+    }
+   .carousel-inner{
+    height: 1000px;
+   }
+}
+
+
+#carouselExampleDark{
+  width:100% ;
+  height: auto;
+}
+ .carousel-caption h5{
+    margin: 10px 100px;
+    font-size: 4vw;
+  
+       font-family: cursive;
+    
+ }
+ .carousel-caption button{
+    height: 60px;
+    background-color: #e98103 ;
+    border: none;
+    box-shadow: 0 0 5px #e98103,
+    0 0 25px  #e98103;
+    padding: 10px 11px;
+    width: 15%;
+    border-radius: 21px;
+    color: white;
+  
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5vw;
+}
+@media screen and (max-width: 800px) {
+  .carousel-caption h5{
+    font-size: 30px;
+  }
+  .carousel-caption button{
+    border-radius: 15px;
+    font-size: 3vw;
+    width: 25%;
+    height: 45px;
+    padding: 10px;
+  }
+}
+
+ .carousel-caption button:hover {
+    background-color: #ff9e28;
+        box-shadow: 0 0 5px  #e98103,
+        0 0 15px  #e98103, 0 0 10px  #e98103,
+        0 0 10px  #64594b, 0 0 10px  #63533f;
+        } */
+
+      .navbar-brand{
+         margin: 0px;
+         padding: 0px;
+      }
+  
+        .navbar li a:hover{
+          color: rgb(255, 187, 0);
+        }
+        .btn-outline-custom {
+           color: #feec86; 
+           border-color: #feec86;
+           margin-right: 2vw;
+           margin-left: 2vw;
+       }
+       .btn-outline-custom:hover {
+           background-color: #feec86; 
+         
+       }
+       .navbar {
+               background-color: black !important;
+            
+           }
+           .navbar-nav {
+               margin: auto;
+           }
+           @media (max-width: 992px) {
+        
+            .bg-dark {
+              --bs-bg-opacity: 1;
+              background-color: rgb(0 0 0) !important;
+          }
+        }
+          
+            .bg-dark {
+              --bs-bg-opacity: 1;
+              background-color: rgb(0 0 0) !important;
+          }
+           
+   /* .custom-height {
+       height: 800px;
+   }
+   .carousel-item img {
+ 
+       height: 800px;
+       object-fit: cover; 
+       z-index: -1;
+       
+   }
+   
+   .carousel-item img {
+       filter: brightness(40%); 
+   }
+   #carousel-caption {
+       position: absolute;
+       right: 0%;
+       bottom: 14.25rem;
+       left: 0%;
+       padding-top: 1.25rem;
+       padding-bottom: 0.25rem;
+       color: #fff;
+       text-align: center;
+   } */
+
+
+   li .nav-link{
+    margin-top: 0px;
+    padding-top: 0px;
+      color: white;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+      font-size: 1.2rem;
+     
+   }
+   li .nav-link:hover{
+    transform: scale(1.1);
+    
+   }
+
+   li{
+    padding-right: 1vw;
+   
+   }
+   li a:hover{
+    /* border-bottom: 3px solid #ffffff; */
+   }
+  .logophone{
+   color: white;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 1rem;
+   margin: 0px;
+   padding: 0px;
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+   align-items: center;
+   /* height: 75px; */
+   width: auto;
+   max-width: 150px;
+
+  
+  }
+  .logophone .logo {
+    margin-right: 5px;
+    height: 24px;
+  }
+  .logophone .logo i{
+    margin-right: 5px;
+  }
+  .logophone .phone{
+   height: 26px;
+  }
+  .logophone .phone i{
+    margin-right: 5px;
+  }
+  .logophone i:hover{
+    transform: scale(1.2);
+  }
+  #homelogo{
+    height: 50px; 
+    width: 71px; /* Keeps aspect ratio */
+    max-width: 150px; /* Prevents it from becoming too large on big screens */
+  }
+  #homefull{
+     height: 40px; /* Slightly smaller for balance */
+    width:auto; /* Maintains aspect ratio */
+    max-width: 250px; /* Prevents it from being too large */
+    min-width: 180px;
+    max-width: 250px; 
+  }
+  @media (max-width: 768px) {
+    .logo {
+        height: 40px;
+        max-width: 120px;
+    }
+    .website-name {
+        height: 35px;
+        max-width: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        height: 35px;
+        max-width: 100px;
+    }
+    .website-name {
+        height: 30px;
+        max-width: 130px;
+    }
+}
+
+
+  .navbar  {
+
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    right: 0;
+   }
+  
+    #navi2{
+    border-bottom:2px solid #ffffff; 
+    padding-bottom: 2px;
+    margin-top:65px ;
+    }
+
+  
+@media screen and (max-width: 800px) {
+  .navbar-brand img {
+    margin: 0px ;
+          width: 100px;
+         height: 100px;
+         background-color: rgb(0, 0, 0);
+  }
+}
+@media  screen and (max-width:900px) {
+  #navi{
+    display: none;
+    
+  }
+  #navi2{
+    top: 0;
+    margin-top: 0px;
+  }
+
+    .navbar-brand {
+        height: 43px;
+        width: 283px;
+    }
+  .navbar-brand h1{
+    color: #bdbdbd;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+  }
+  
+}
+
+@media screen and (max-width:3000px){
+  .navbar-brand h1{
+    display: none;
+    
+  }
+
+}
+@media screen and (max-width:1000px){
+  .navbar-brand h1{
+    display: block;
+  }
+  #navi2 .container{
+   /* margin-left: 1%; */
+  
+  }
+ 
+}
+.navbar-toggler:focus, 
+.navbar-toggler:hover {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+
+
+.navbar-toggler-icon {
+  filter: invert(1); 
+} 
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/bkhai.jpg); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* 40% brightness overlay */
+  z-index: 1;
+}
+
+.content {
+  color: white;
+  text-align: center;
+  z-index: 2;
+ 
+}
+.custom-btn {
+  background-color: #e98103;
+    color: white;
+    margin-right: 20px;
+    border: none;
+    box-shadow: 0 0 5px #e98103, 0 0 25px #e98103;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.custom-btn:hover {
+  background-color: #ff9e28;
+  box-shadow: 0 0 5px #e98103, 0 0 15px #e98103, 0 0 10px #e98103, 0 0 10px #64594b;
+}
+.banner a{
+  text-decoration: none;
+  color: white;
+}
